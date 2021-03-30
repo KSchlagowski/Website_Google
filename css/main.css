@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
     margin: 0;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
 }
 
 p, blockquote {
-    font-size: .9em;
     line-height: 1.6em;
 }
 
@@ -17,27 +16,68 @@ ul {
 }
 
 .container {
-    padding: .8em 1.2em;
+    
 }
 
 
 header {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
+    
 }
 
-header nav img {
-    width: 20px;
-    height: 20px;
-}
-
-header ul {
+header nav {
     display: flex;
     justify-content: space-around;
 }
 
-header ul li a {
-    padding: 0 1em;
+.nav-text {
+    padding: 0 5px;
+}
+
+.nav-text ul {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-text ul li a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.nav-text ul li a p {
+    font-size: .8em;
+    padding: 10px 10px;
+}
+
+.nav-images ul {
+    display: flex;
+    padding: 0 10px 0;
+}
+
+.nav-images ul li {
+    padding: 0 0 0 10px;
+}
+
+
+
+.nav-images ul li:nth-child(1) a img {
+    margin: -25px;
+    width: 17px;
+    height: 17px;
+ 
+}
+
+header nav ul li:nth-child(2) a img {
+    margin: -32px 8px;
+    width: 31px;
+    height: 31px;
+    border-radius: 50px;
+   
 }
 
 
@@ -61,21 +101,26 @@ header ul li a {
 
 
 .language {
+    
     display: flex;
     justify-content: space-between;
+}
+
+.language a {
+    padding: 17px;
 }
 
 
 .search {
     overflow: hidden;
-    
+    background-color: #e9e9e9;
 }
 
 .search input[type=text] {
     width: 90%;
     border-radius: 20px;
     padding: 9px;
-    
+    border: none;
 
     font-size: 17px;
 }
