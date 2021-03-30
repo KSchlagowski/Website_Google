@@ -93,9 +93,8 @@ header nav {
 
 
 .main-container {
-    padding: 12em 0 0 0;
-    text-align: center;
-    
+    margin: 6%;
+    text-align: center;   
 }
 
 .search {
@@ -223,4 +222,31 @@ button:hover {
     padding: 0 0.5em;
     text-decoration: none;
     color: rgb(100, 100, 100);
+}
+
+
+
+@media only screen and (min-width: 665px) {
+
+    .main-container div{
+       
+        align-items: center;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        
+        margin: 0 0 5% 0;
+    }
+
+    .buttons {
+
+    }
+
+
+    .lower-footer {
+        display: flex;
+        justify-content: space-between;
+    }
 }
