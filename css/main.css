@@ -22,8 +22,6 @@ ul {
   list-style-type: none;
 }
 
-
-
 header {
   width: 100vw;
   display: flex;
@@ -88,11 +86,10 @@ header nav {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 
 .main-container {
@@ -109,10 +106,10 @@ main {
   margin-top: 19px;
   width: 90%;
   height: 46px;
-  
+
   border-radius: 22px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   padding-left: 20px;
   border: 1.9px solid rgb(219, 219, 219);
 
@@ -190,10 +187,8 @@ button:hover {
 }
 
 .lower-footer {
-    height: 100px;
+  height: 100px;
   margin-top: 20px;
-
-
 }
 
 .lower-footer ul {
@@ -208,28 +203,26 @@ button:hover {
 }
 
 .lower-footer ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .ul1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .ul2 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
 
 .list2 {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
-
-
 
 @media only screen and (min-width: 665px) {
   .lower-footer {
@@ -242,7 +235,7 @@ button:hover {
 
   .ul1 {
     margin-top: 0;
-      width: 100%;
+    width: 100%;
   }
 
   .ul2 {
@@ -250,12 +243,11 @@ button:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-}
+  }
 
-.list2 {
-    
+  .list2 {
     width: 50%;
     display: flex;
     justify-content: space-evenly;
-}
+  }
 }
