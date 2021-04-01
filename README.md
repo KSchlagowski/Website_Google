@@ -1,3 +1,3 @@
 # Website_Google
-Recoded Google.com website made by myself.
+Recoded Google.com website. All rights belong to Google.
 
